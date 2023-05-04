@@ -261,6 +261,7 @@ class Trainer:
             w_path = w_path + "-UNDER-SAMPLE"
         if LOGIT_DIFF:
             w_path = w_path + "-LOGIT-DIFF"
+        w_path = "debug"
         print("writer path:", w_path)
         writer = SummaryWriter(w_path)
 

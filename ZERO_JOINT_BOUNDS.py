@@ -1,6 +1,6 @@
 import numpy as np
 import torch
-import playsound
+# import playsound
 from torch import nn
 
 from Trainer import Trainer
@@ -74,4 +74,4 @@ if __name__ == '__main__':
         # Play a sound to notify the end of the execution
         if epochs > 0:
             trainer.save()
-        playsound.playsound("mixkit-correct-answer-tone-2870.wav")
+        # playsound.playsound("mixkit-correct-answer-tone-2870.wav")
